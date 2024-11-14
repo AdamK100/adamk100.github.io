@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#navbar {
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    display: inline-flex;
+}
+.navcell{
+    font-size: xx-large;
+    border: solid; 
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-family: 'Segoe UI Light';
+    height:100%;
+}
+.navcell button{
+    border: solid; 
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: large;
+    font-family: 'Segoe UI Light';
+    height:100%;
+}
+#content {
+    background-color:slategray;
+    width: 100%;
+    height: 80%;
+}
