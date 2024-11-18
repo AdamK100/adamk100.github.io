@@ -5,7 +5,7 @@ html, body {
 
 #navbar {
     width: 100%;
-    height: 20%;
+    height: 10%;
     background-color: rgb(35,35,35);
     color:whitesmoke;
     display: inline-flex;
@@ -33,15 +33,43 @@ html, body {
 }
 #content {
     width: 100%;
-    height: 80%;
+    height: 90%;
     background-image: url('tatralake.jpeg')
 }
 
 #content span {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI Semibold';
     font-size: 800%;
     color: whitesmoke;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: rgb(35,35,35);
     align-items: center;
+}
+
+#resumedlwindow {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI Semibold';
+    font-size: large;
+    display: none;
+    position: absolute;
+    color:black;
+    margin-left:35%;
+    margin-top: 5%;
+    max-width: 15%;
+    padding:1%;
+}
+#resumedlwindow div {
+    display: flex;
+    background-color:seagreen;
+    font-size: large;
+    font-family: 'Segoe UI Semibold';
+    color:whitesmoke;
+    padding-left:3%; padding-right:3%;
+}
+
+#resumedlwindow div:hover{
+    background-color:whitesmoke;
+    font-size: large;
+    color:black;
+    border: solid;
 }

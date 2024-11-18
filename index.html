@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 
 <html>
+    <script src="back.js"></script>
     <head>
         <title>Adam's Space</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body onload="hidedl()">
         <div id="navbar">
             <div class="navlog" style="margin-left: 5%;">ADAM</div>
-            <div class="navcell" style="padding-left:3%; padding-right:3%; margin-left: 35%; font-size: large;">Resume</div>
+            <div class="navcell" onclick="showdl()" style="padding-left:3%; padding-right:3%; margin-left:25%; font-size: large;">Resume</div>
+            <div id="resumedlwindow">Download Resume:
+                <br>
+                <div onclick="window.open('./AdamsResume.pdf','_blank');"><img style="margin-top: 2%; width:1em; display:inline-block; margin-right:4%; padding-bottom: 1%;" src="resume_white.png"/>  View (.pdf)</div>
+            </div>
             <div class="navcell" style="border-left: solid; padding-left:3%; padding-right:3%; ">Portfolio</div>
             <div class="navcell" style="border-left: solid; padding-left:3%; padding-right:3%;">About Me</div>
             <div class="navcell" style="border-left: solid; padding-left:3%; padding-right:3%;">Contact</div>
         </div>
-        <div id="content">
+        <div id="content" onclick="hidedl()">
             <br><br><br><br>
             <span style="margin-left: 10%; margin-top: 5%;">Welcome.</h1>
         </div>
